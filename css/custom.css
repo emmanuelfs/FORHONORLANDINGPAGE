@@ -2,6 +2,10 @@
 	display:none;
 }
 
+#dontHide {
+	min-height:50px;
+}
+
 
 .affix {
 	transition: all .35s ease-in-out;
