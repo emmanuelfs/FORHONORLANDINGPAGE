@@ -2,7 +2,9 @@
 	display:none;
 }
 
+
 .affix {
+	transition: all .35s ease-in-out;
 	padding-top: 10px;
 	top: 0;
 	z-index: 999 !important; 
@@ -11,6 +13,7 @@
 	border-radius: 15px;
 	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45),
                 rgba(0,0,0,0.45));
+	
 }
 
 .affix img {
