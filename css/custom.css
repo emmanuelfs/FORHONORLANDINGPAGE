@@ -1,19 +1,16 @@
-.navegate {
-	padding-top: 10px;
-	border-radius: 15px;
-	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45),
-                rgba(0,0,0,0.45));
-}
-
 .navegate img {
 	display:none;
 }
 
 .affix {
+	padding-top: 10px;
 	top: 0;
 	z-index: 999 !important; 
 	position:fixed;
 	width: 100%;
+	border-radius: 15px;
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45),
+                rgba(0,0,0,0.45));
 }
 
 .affix img {
