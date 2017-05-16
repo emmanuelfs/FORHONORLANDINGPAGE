@@ -1,14 +1,17 @@
+.ribbon {
+	min-height: 10px;
+	background: url(../img/ribbon.png) repeat;
+	background-size: contain;
+	max-height: 100%;
+	min-width: 100%;
+}
+
 .navegate img {
 	display:none;
 }
 
 #dontHide {
 	min-height:50px;
-}
-
-.overlay1 {
-	background: url(../img/overlay.png);
-	z-index: 1000 !important;
 }
 
 
@@ -49,6 +52,8 @@ body {
 	margin-left: 2rem;
 }
 
+
+
 .widithy {
 	max-width: 95%;
 	margin: 0 auto;
@@ -83,24 +88,24 @@ body {
 
 
 .samurai {
-	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
-                rgba(0,0,0,0.55) url(../img/samurai.jpg) no-repeat;
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                rgba(0,0,0,0.45) url(../img/samurai.jpg) no-repeat;
 	background-size: cover;
-	border-top: 5px solid rgba(0 , 0, 0, .05);
+	border-top: 5px solid rgba(0 , 0, 0, .85);
 }
 
 .knights{
-	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
-                rgba(0,0,0,0.55) url(../img/knight.jpg) no-repeat;
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                rgba(0,0,0,0.45) url(../img/knight.jpg) no-repeat;
 	background-size: cover;
-	border-top: 5px solid rgba(0 , 0, 0, .05);
+	border-top: 5px solid rgba(0 , 0, 0, .85);
 }
 
 .viking {
-	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-                rgba(0,0,0,0.85)  url(../img/viking.jpg) no-repeat;
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                rgba(0,0,0,0.45)  url(../img/viking.jpg) no-repeat;
 	background-size: cover;
-	border-top: 5px solid rgba(0 , 0, 0, .05);
+	border-top: 5px solid rgba(0 , 0, 0, .85);
 }
 
 .videoLoco {
@@ -132,5 +137,6 @@ body {
 }
 
 .logo a:hover {
-	text-shadow: -1px 1px 3px #fff;
+	background: url(../img/blood.png) repeat;
+	background-size: contain;
 }
