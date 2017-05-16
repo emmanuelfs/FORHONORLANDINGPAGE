@@ -6,6 +6,11 @@
 	min-height:50px;
 }
 
+.overlay1 {
+	background: url(../img/overlay.png);
+	z-index: 1000 !important;
+}
+
 
 .affix {
 	transition: all .35s ease-in-out;
@@ -77,24 +82,22 @@ body {
 }
 
 
-
 .samurai {
-	backgroun-color: black;
-	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
                 rgba(0,0,0,0.55) url(../img/samurai.jpg) no-repeat;
 	background-size: cover;
 	border-top: 5px solid rgba(0 , 0, 0, .05);
 }
 
 .knights{
-	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
                 rgba(0,0,0,0.55) url(../img/knight.jpg) no-repeat;
 	background-size: cover;
 	border-top: 5px solid rgba(0 , 0, 0, .05);
 }
 
 .viking {
-	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
                 rgba(0,0,0,0.85)  url(../img/viking.jpg) no-repeat;
 	background-size: cover;
 	border-top: 5px solid rgba(0 , 0, 0, .05);
@@ -105,7 +108,7 @@ body {
 }
 
 .videoFondo {
-	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+	background: url(../img/overlay.png), linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
                 rgba(0,0,0,0.55)  url(../img/video-fondo.jpg) no-repeat;
 	background-size: cover;
 	border-top: 5px solid rgba(0 , 0, 0, .05);
